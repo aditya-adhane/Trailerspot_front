@@ -1,0 +1,46 @@
+.arrow {
+  
+  margin-left: 20px;
+  height: 150px;
+  width:100px;
+}
+.Youtube {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    min-width: 800px;
+    height: 448px;
+    display: flex;
+  
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    flex-direction: row;
+  }
+  
+  .close-btn {
+    position: relative;
+    color: #6f6f6f;
+    left: 14vw;
+    height: 40px;
+    width: 40px;
+    margin-right: 30px;
+    align-self: center;
+    justify-self: center;
+    transition: all 0.3s;
+  }
+  
+  .close-btn:hover {
+    color: #dbdbdb;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  @media screen and (max-width: 1130px) {
+    .close-btn {
+      /* position: absolute; */
+      margin-right: 50px;
+      left: 5vw;
+    }
+  }
+  
